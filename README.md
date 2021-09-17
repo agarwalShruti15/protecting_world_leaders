@@ -8,12 +8,13 @@ We describe a forensic technique that models facial expressions and movements th
 
 ![Method Overview](overview.png)
 
+
 ## Dependencies
 
 Requirements:
 
 <ul>
-    <li> Path to OpenFace2.0 build/bin folder. This folder is created after OpenFace compilation. Please follow the instructions given <a href="https://github.com/TadasBaltrusaitis/OpenFace/wiki">here</a> to compile OpenFace2.0 on your machine.
+    <li> Path to OpenFace build/bin folder. This folder is created after OpenFace compilation. Please follow the instructions given <a href="https://github.com/TadasBaltrusaitis/OpenFace/wiki">here</a> to compile OpenFace2.0 on your machine. Kepp the binaries in OpenFace folder.
     <li> This code has been tested on Python3.6. The python dependencies can be installed using requirements.txt. 
 </ul>
 
@@ -23,8 +24,8 @@ Requirements:
 train.ipynb --> training pipeline
 test.ipynb --> testing pipeline
 utils.py --> utility functions needed for training and testing
-models --> the SVM models for 5 POIs in our paper paper.pdf
-test_ex --> some example test videos
+models --> the SVM models for 5 POIs in our paper paper.pdf. Download it from https://www.dropbox.com/sh/xrdm85je800jozd/AAC_SP1kCFSyQpoyvTDVs6-qa?dl=0
+test_ex --> some example test videos. Download it from https://www.dropbox.com/sh/bftai1drcflvf5d/AACfwQDwGPEU8kYy4lZM0NZCa?dl=0
 
 ## Dataset
 
