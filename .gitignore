@@ -1,0 +1,6 @@
+**/models/
+**/__pycache__/
+**/Openface/
+**/test_ex/
+.ipynb_checkpoints/
+**/.DS_Store
